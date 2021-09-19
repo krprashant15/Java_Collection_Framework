@@ -1,0 +1,15 @@
+How Hashmap works internally?
+
+Hashmap is an associative array data structure which stores data as key value pair.Hashmap works on the basis of Hashing
+
+Hashcode of null is always zero.
+
+Hashmap is not synchronized(not thread safe).
+
+#LinkedHashMap(c) extends HashMap(c) and these both implements Map Interface. 
+-> It maintains insertion order
+
+1-Insertion Order:It stores the value in a node (Doubly linked list) 
+2-key value pair
+3-Not synchronized i.e not thread safe
+4-one null key and multi[ple null vlaues are allowed.
