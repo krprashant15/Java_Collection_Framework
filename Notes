@@ -1,0 +1,6 @@
+How to Synchronize ArrayList in Java:
+1.Collections.synchronizedList()-method which return synchronized list.
+2.copyOnWriteArrayList- class which is thread safe variant of ArrayList. 
+
+Hashmap is implementing Map iNterface,it stores the value based on key value pair
+ThreadSafe means at a time only one single thread will be working on the object.
